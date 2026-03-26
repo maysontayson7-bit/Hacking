@@ -97,4 +97,4 @@ if __name__ == '__main__':
     if (ssid is None) or (bssid is None):
         print(parser.usage)
         exit(0)
-    run(ssid,bssid)
+    run(ssid,bssid) script is an attack tool that retrieves the password of a WiFi network using its SSID and BSSID. It constructs a specific data payload, encrypts it using AES, and sends it to a remote server. The server responds with the encrypted password, which is then decrypted and printed to the user. The script uses command-line arguments to accept the SSID and BSSID of the target WiFi network. 
